@@ -47,5 +47,7 @@ void main() {
   a.enqueueFront(33);
   a.enqueueFront(22);
   a.enqueueRear(23);
+  a.dequeueFront();
+  a.dequeueRear();
   a.display();
 }
